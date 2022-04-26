@@ -1,0 +1,71 @@
+body {
+    background-image: url("../images/background.jpg");
+    color: rgb(146, 160, 197);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1.special-font {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+}
+
+div.container {
+    padding: 20px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    margin-top: 20px;
+    color: #383838;
+    width: 40%;
+    margin: 40px;
+    float: left;
+}
+
+.accordion {
+    margin: auto;
+    width: 60%;
+    align-content: center;
+    float: center;
+    margin-top: 30px;
+}
+
+.accordion-body {
+    background-color: black;
+    width: 70%;
+}
+
+.accordion-item {
+    background-color: rgb(29, 29, 29);
+}
+
+.accordion-button {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.accordion-header, #panelsStayOpen-headingOne{
+    background-color: rgb(46, 46, 46);
+}
+
+.accordion-collapse {
+    background-color: black;
+}
+
+#carouselExampleSlidesOnly {
+    width: 40%;
+    margin: auto;
+    align-content: space-around;
+    float: center;}
+
+.card {
+    margin: auto;
+    align-content: space-around;
+    float: center;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: rgb(133, 133, 133);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1.special-font {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    color:rgb(146, 17, 17);
+}
+
+.col-auto {
+    background-image: url("../images/background2.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-auto a {
+    color:rgb(146, 17, 17);
+    font-size: 24px;
+}
+
+.col-auto a:hover {
+    color:rgb(146, 17, 17);
+    font-weight: bold;
+}
