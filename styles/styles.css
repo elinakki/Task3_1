@@ -69,3 +69,32 @@ div.container {
     margin-left: auto;
     margin-right: auto;
 }
+
+#clickme {
+    color: white;
+    background-color: rgb(57, 133, 42);
+    border: 0;
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+    float: center;
+    width: 100%;
+}
+
+#clickme:hover {
+    background-color: rgb(113, 194, 95);
+}
+
+.box {
+    background-color: black;
+    padding: 25px;
+    color: white;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    float: center;
+}
+
+.change {
+    background-color: rgb(250, 157, 157);
+}
