@@ -1,0 +1,101 @@
+$bg-white: white;
+$bg-black: black;
+$special-font: white;
+
+body {
+    background-image: url("./background.jpg");
+    color: rgb(146, 160, 197);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1.special-font {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    color: $special-font;
+}
+
+div.container {
+    padding: 20px;
+    background-color: $bg-white;
+    opacity: 0.8;
+    margin-top: 20px;
+    color: #424242;
+    width: 40%;
+    margin: 40px;
+    float: left;
+}
+
+.accordion {
+    margin: auto;
+    width: 60%;
+    align-content: center;
+    float: center;
+    margin-top: 30px;
+    .accordion-body {
+        background-color: $bg-black;
+        width: 70%;
+        .accordion-item {
+            background-color: rgb(29, 29, 29);
+            .accordion-button {
+                background-color: rgb(46, 46, 46);
+                color: $special-font;
+                .accordion-header, #panelsStayOpen-headingOne{
+                    background-color: rgb(46, 46, 46);
+                    .accordion-collapse {
+                        background-color: $bg-black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card {
+    margin: auto;
+    align-content: space-around;
+    float: center;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clickme {
+    color: $special-font;
+    background-color: rgb(57, 133, 42);
+    border: 0;
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+    float: center;
+    width: 100%;
+    #clickme:hover {
+        background-color: rgb(113, 194, 95);
+    }
+}
+
+.box {
+    background-color: $bg-black;
+    padding: 25px;
+    margin-bottom: 20px;
+    color: $special-font;
+    width: 100%;
+    align-content: center;
+    float: center;
+}
+
+.change {
+    background-color: rgb(250, 157, 157);
+}
+
+.special {
+    font-size: 3em;
+    color:rgb(240, 104, 144);
+}
+
+.textstyle {
+    color:rgb(150, 137, 224);
+}
