@@ -97,4 +97,9 @@ div.container {
   color: rgb(150, 137, 224);
 }
 
+p ~ span {
+  color: rgb(52, 54, 153);
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=built-styles.css.map */
