@@ -2,6 +2,11 @@ $bg-white: white;
 $bg-black: black;
 $special-font: white;
 
+@mixin theme($theme: rgb(255, 255, 255)) {
+    background: $theme;
+    color: #424242;
+}
+
 body {
     background-image: url("./background.jpg");
     color: rgb(146, 160, 197);
@@ -17,11 +22,10 @@ h1.special-font {
 }
 
 div.container {
+    @include theme;
     padding: 20px;
-    background-color: $bg-white;
     opacity: 0.8;
     margin-top: 20px;
-    color: #424242;
     width: 40%;
     margin: 40px;
     float: left;

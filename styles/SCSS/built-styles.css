@@ -13,11 +13,11 @@ h1.special-font {
 }
 
 div.container {
+  background: rgb(255, 255, 255);
+  color: #424242;
   padding: 20px;
-  background-color: white;
   opacity: 0.8;
   margin-top: 20px;
-  color: #424242;
   width: 40%;
   margin: 40px;
   float: left;
